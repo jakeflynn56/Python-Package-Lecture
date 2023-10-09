@@ -9,7 +9,6 @@ parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
 
 # Add the parent directory to sys.path
 sys.path.append(parent_dir)
-print(sys.path)
 
 # Now you can import modules from the parent directory
 from src.isPrime import checkIsPrime
@@ -24,5 +23,3 @@ class TestFunctions(unittest.TestCase):
     
 if __name__ == '__main__':
     unittest.main()
-
-# Testing 
